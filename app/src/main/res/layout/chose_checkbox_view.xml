@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal" >
+   <LinearLayout 
+       android:id="@+id/ll_checkbox1"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:orientation="horizontal"
+       >
+       <TextView 
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:orientation="horizontal"
+       android:textColor="#ffffff"
+       android:textSize="12sp"
+       android:text="全部"
+           />
+       <CheckBox 
+           android:id="@+id/cb_checkbox1"
+           android:checked="true"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           />
+       
+   </LinearLayout>
+   
+   <LinearLayout 
+       android:id="@+id/ll_checkbox2"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_marginLeft="5dip"
+       android:orientation="horizontal"
+       >
+       <TextView 
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:orientation="horizontal"
+       android:textColor="#ffffff"
+       android:textSize="12sp"
+       android:text="暂存"
+           />
+       <CheckBox 
+           android:id="@+id/cb_checkbox2"
+           android:checked="true"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           />
+       
+   </LinearLayout>
+   
+   
+   <LinearLayout 
+       android:id="@+id/ll_checkbox3"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_marginLeft="5dip"
+       android:orientation="horizontal"
+       >
+       <TextView 
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:orientation="horizontal"
+       android:textColor="#ffffff"
+       android:textSize="12sp"
+       android:text="已提交"
+           />
+       <CheckBox 
+           android:id="@+id/cb_checkbox3"
+           android:checked="true"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           />
+       
+   </LinearLayout>
+
+</LinearLayout>
